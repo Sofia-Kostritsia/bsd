@@ -172,6 +172,7 @@ h1{
     flex-direction: row;
 }
 .up-h1{
+    display: none;
     position: absolute;
     top: -4%;
     left: 10%;
@@ -187,7 +188,9 @@ h1{
     body{
         width: 80%;
     }
-
+    .up-h1{
+        display: block;
+    }
     .img-click{
         width: 90vw;
         height: 17vw;
