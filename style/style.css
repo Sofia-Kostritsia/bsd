@@ -1,15 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Philosopher:ital,wght@1,700&family=Rubik+Mono+One&display=swap');
 
+@font-face {
+    font-family: "Phenomena-Regular-Regular";
+    src: url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.eot");
+    src: url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2360fe87d82d652ed8c9f1b03f26306e.svg#Phenomena-Regular-Regular")format("svg");
+}
 /*
 @font-face {
-    font-family: "Phenomena";
-    src: url("/Users/User/AppData/Local/Microsoft/Windows/Fonts/Phenomena-Bold.otf") format("opentype");
+    font-family: "Phenomena-Regular";
+    src: url("/Users/User/AppData/Local/Microsoft/Windows/Fonts/Phenomena-Regular-Bold.otf") format("opentype");
 } */
 
 /* @font-face {
-    font-family: 'Phenomena';
-    src: url('https://github.com/Sofia-Kostritsia/bsd/blob/main/font/Phenomena-Bold.otf');
-    src: url('https://github.com/Sofia-Kostritsia/bsd/blob/main/font/Phenomena-Bold.otf') format('embedded-opentype');
+    font-family: 'Phenomena-Regular';
+    src: url('https://github.com/Sofia-Kostritsia/bsd/blob/main/font/Phenomena-Regular-Bold.otf');
+    src: url('https://github.com/Sofia-Kostritsia/bsd/blob/main/font/Phenomena-Regular-Bold.otf') format('embedded-opentype');
 } 
 
 @font-face {
@@ -75,7 +84,7 @@ li:last-child {
     left: 10%;
     font-size: 3.2vh;
     text-align: justify;
-    font-family: 'Phenomena';
+    font-family: "Phenomena-Regular";
 }
 .click{
     width: 100px;
@@ -145,7 +154,7 @@ li:last-child {
 .text-org{
     font-size: 3.2vh;
     text-align: justify;
-    font-family: 'Phenomena';
+    font-family: 'Phenomena-Regular';
     color: rgb(255, 255, 255);
     white-space: pre-wrap;
 }
@@ -161,7 +170,7 @@ li:last-child {
 }
 h1{
     font-size: 5vw;
-    font-family: 'Phenomena';
+    font-family: 'Phenomena-Regular';
     color: rgb(255, 255, 255);
 }
 .info-about-author-top{
@@ -179,10 +188,13 @@ h1{
     left: 10%;
 }
 .up-h1 p{
-    font-family: 'Phenomena';
+    font-family: 'Phenomena-Regular';
     font-size: 100px;
     color: rgb(255, 255, 255);
 }
+
+
+
 
 @media only screen and (max-device-width: 600px){
     body{
@@ -256,7 +268,7 @@ h1{
     .text-org{
         font-size: 2.5vh;
         text-align: justify;
-        font-family: 'Phenomena';
+        font-family: 'Phenomena-Regular';
         color: rgb(255, 255, 255);
         white-space: pre-wrap;
     }
@@ -273,11 +285,12 @@ h1{
     }
     h1{
         font-size: 5vw;
-        font-family: 'Phenomena';
+        font-family: 'Phenomena-Regular';
         color: rgb(255, 255, 255);
     }
     .info-about-author-top{
         width: 100%;
+
     }
     .organization{
         width: 100%;
