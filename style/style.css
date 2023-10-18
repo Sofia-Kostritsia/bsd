@@ -1,7 +1,5 @@
-@font-face {
-    font-family: "Extra Condens";
-    src: url("https://github.com/Sofia-Kostritsia/bsd/blob/main/font/d_CCGloucester_MT_Extra_Condens.ttf") format("truetype");
-}
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Philosopher:ital,wght@1,700&family=Rubik+Mono+One&display=swap');
+
 /*
 @font-face {
     font-family: "Phenomena";
@@ -112,7 +110,8 @@ li:last-child {
     padding-left: 2%;
     padding-top: 0.5%;
     margin-top: 3%;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: row;
 }
@@ -120,21 +119,22 @@ li:last-child {
     width: 10%;
     border-radius: 50%;
 }
-.left{
+/* .left{
     margin-left: -2vw;
 }
 .right{
     margin-left: 25vw;
-}
+} */
 
 #info{
     padding-top: 5%;
     margin-left: 5%;
 }
 .name{
-    font-size: 3vw;
-    font-family: 'Extra Condens';
-    margin-left: 25vw;
+    font-size: 2.2vw;
+    font-family: 'Philosopher', sans-serif;
+    /* margin-left: 24vw;
+    margin-right: 24vw; */
 }
 .burger{
     display: none;
@@ -147,6 +147,7 @@ li:last-child {
     text-align: justify;
     font-family: 'Phenomena';
     color: rgb(255, 255, 255);
+    white-space: pre-wrap;
 }
 .left-photo{
     width: 45%;
@@ -183,7 +184,6 @@ h1{
     color: rgb(255, 255, 255);
 }
 
-
 @media only screen and (max-device-width: 600px){
     body{
         width: 80%;
@@ -196,24 +196,17 @@ h1{
         height: 17vw;
         border-radius: 6vw;
         margin-top: 10%;
+        align-items: center;
     }
 
     .img-click img{
         width: 15%;
         border-radius: 50%;
-        margin-top: 1.5%;
-    }
-    .left{
-        margin-left: -0.5vw;
-    }
-    .right{
-        margin-left: 10vw;
+        margin-top: 0%;
     }
 
     .name{
         font-size: 5vw;
-        font-family: 'Extra Condens';
-        margin-left: 10vw;
     }
 
     .burger{
@@ -261,10 +254,11 @@ h1{
         margin-left: 5%;
     }
     .text-org{
-        font-size: 2vh;
+        font-size: 2.5vh;
         text-align: justify;
         font-family: 'Phenomena';
         color: rgb(255, 255, 255);
+        white-space: pre-wrap;
     }
     .left-photo{
         width: 45%;
@@ -291,5 +285,7 @@ h1{
         display: flex;
         flex-direction: column;
     }
-
+    #mori-corporation{
+        margin-top: -25%;
+    }
 }
