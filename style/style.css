@@ -182,10 +182,11 @@ h1{
 }
 .text-autor{
     width: 100%;
-    font-size: 2.2vh;
+    font-size: 2.2vw;
     font-family: 'Phenomena-Regular';
     color: rgb(255, 255, 255);
     text-align: justify;
+    margin-right: 5%;
 }
 .organization{
     width: 100%;
