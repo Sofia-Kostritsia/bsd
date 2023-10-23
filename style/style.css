@@ -102,11 +102,11 @@ li:last-child {
     width: 80%;
 }
 .up{
-    width: 20vw;
+    width: 15vw;
     border-radius: 25px;
 }
 .down{
-    width: 20vw;
+    width: 15vw;
     border-radius: 25px;
     
 }
@@ -128,12 +128,6 @@ li:last-child {
     width: 10%;
     border-radius: 50%;
 }
-/* .left{
-    margin-left: -2vw;
-}
-.right{
-    margin-left: 25vw;
-} */
 
 #info{
     padding-top: 5%;
@@ -173,8 +167,25 @@ h1{
     font-family: 'Phenomena-Regular';
     color: rgb(255, 255, 255);
 }
+
 .info-about-author-top{
-    width: 50%;
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.info-about-author-bot{
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.text-autor{
+    width: 100%;
+    font-size: 2.2vh;
+    font-family: 'Phenomena-Regular';
+    color: rgb(255, 255, 255);
+    text-align: justify;
 }
 .organization{
     width: 100%;
@@ -192,7 +203,14 @@ h1{
     font-size: 100px;
     color: rgb(255, 255, 255);
 }
-
+.info-about-author{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0% 2% -5% 2%;
+    
+}
 
 
 
@@ -256,10 +274,12 @@ h1{
     .up{
         width: 30vw;
         border-radius: 25px;
+        display: none;
     }
     .down{
         width: 30vw;
         border-radius: 25px;
+        display: none;
     }
     #info{
         padding-top: 12%;
@@ -288,10 +308,6 @@ h1{
         font-family: 'Phenomena-Regular';
         color: rgb(255, 255, 255);
     }
-    .info-about-author-top{
-        width: 100%;
-
-    }
     .organization{
         width: 100%;
         margin-left: 10%;
@@ -301,4 +317,28 @@ h1{
     #mori-corporation{
         margin-top: -25%;
     }
+    .info-about-author-top{
+    width: 140%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.info-about-author-bot{
+    width: 140%;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+.text-autor{
+    width: 100%;
+    font-size: 2.2vh;
+    font-family: 'Phenomena-Regular';
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+.block{
+    align-items: center;
+}
 }
